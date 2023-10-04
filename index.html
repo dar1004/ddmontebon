@@ -1,106 +1,155 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First Website</title>
-    <link rel="stylesheet" href="finalcss.css" />
-  </head>
-  <body>
-    <section class="header">
-      <div class="toprow">
-      <nav>
-          <img src="images/logo1.png" width="5%" height="5%">
-          <div class="nav-links">
-          <ul>
-            <li><a href="finalproject.html">HOME</a></li>
-            <li><a href="#campus">ABOUT</a></li>
-            <li><a href="#academics">ACADEMICS</a></li>
-            <li><a href="#updates">UPDATES</a></li>
-            <li><a href="#contact">CONTACT US</a></li>
-          </ul>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>My Bootstrap Project</title>
+    </head>
+    <body>
+        <div
+             class="d-flex justify-content-center" 
+             style="background-color: #dcebe5">
+             <p style="color: rgb(10, 9, 9);  font-size: large;">
+                &nbsp; &nbsp; &nbsp;<a href="https://www.facebook.com/STREAMLINEDORSHS" class="text-white me-4"><i class="fa fa-facebook-f" style="font-size:20px" margin="auto"></i></a>
+            &nbsp; &nbsp;<i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;dorshs304328@gmail.com</i> 
+            &nbsp; &nbsp; <i class="fa fa-phone" aria-hidden="true">&nbsp; &nbsp;(087)-811-2563</i> 
+      
+             
         </div>
-      </div>
-        </nav>
-      </nav>
-      <div class="text-box">
-        <h1>Be A RegScian Now!</h1>
-        <p>
-          Davao Oriental Regional Science High School is the only Regional
-          Science in whole Region XI.<br>It was established on May 28, 2009 through
-          R.A. No. 9630.
-        </p>
-        <a href="">Visit Us To Know More</a>
-      </div>
-    </section>
-    <!-----Academics------->
-    <section class="academics">
-        <h1 id="academics">Academics We Offer</h1>
-       
-        <div class="row">
-        <div class="academics-col">
-            <h3>JUNIOR HIGH SCHOOL</h3>
-           <img src="images/juniorhigh.jpg">
-        </div>
-        <div class="academics-col">
-            <h3>SENIOR HIGH SCHOOL</h3>
-           <img src="images/seniorhigh.jpg">
-        </div>
-    </div>
-    </section>
-    <!------Campus------->
-    <section class="campus">
-        <h1 id="campus">Our Campus</h1>
+        <header class="header">
+            <nav class="navbar navbar-style">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a href="aboutus.html"><img class="logo" src="images/logo1.png"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="micon">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index1.html">HOME</a></li>
+                        <li><a href="#academics">ACADEMICS</a></li>
+                        <li><a href="#facilities">FACILITIES</a></li>
+                        <li><a href="#updates">UPDATES</a></li>
+                        <li><a href="aboutus.html">CONTACT US</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+            <div class="container1">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>BE A REGSCIAN NOW..</h1>
+                        <h3>"Unlocking Minds, Igniting Futures: Welcome to Davao Oriental Regional Science High School"
+                        </h3>
+                    
+                        <a class="btn" button type="button"  data-toggle="collapse" data-target="#info" href="#">Read More</a>
+                        <div id="info" class="collapse">
+                           <p>Step into a world where curiosity knows no bounds, where innovation sparks the flame of discovery, and where young minds are sculpted into tomorrow's trailblazers. With great pride, we invite you to embark on a captivating journey through the corridors of knowledge, where science is not just a subject but a way of life.
+                            In these hallowed halls, scientific exploration is at the heart of everything we do. We are more than just a school; we are a crucible of intellect and aspiration. Our story is one of relentless pursuit—a tale of budding scientists, engineers, and visionaries who dare to dream, experiment, and push the boundaries of what's possible.
+                            Join us in celebrating a place where minds soar, where questions lead to answers, and where every day is an opportunity to make a profound impact on the world. Welcome to Davao Oriental Regional Science High, where we sculpt the future, one bright young mind at a time.
+                            Dive in and discover the essence of our institution, where the pursuit of knowledge knows no bounds, and the promise of a brighter, more enlightened future awaits.
+                        </p> 
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <section id="academics">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <img src="images/juniorhigh.jpg" class="img-thumbnail">
+                          
+                          </div>
+                          <div class="col-md-5">
+                          <h2 style="color: darkorange; font-weight: bold; text-align: justify;">JUNIOR HIGH SCHOOL</h2>
+                        <p class="lead" style="font-size: medium;">Our Junior High School Department offers a curriculum that focuses on Research and Science & Technology.
+                          We are dedicated to nurturing the next generation of scientists, engineers, and innovators. The School provides a rigorous and immersive educational experience that equips students with the knowledge, skills, and passion needed to excel in STEM fields and contribute to scientific advancements and technological innovations.</p>  
+                          <p><a href="#" class="btn btn-success" style="color: rgb(10, 8, 8);">Learn More »</a></p>
+                        </div>
+               </div>
+          
+               <hr class="my-4">
+               <div class="container-fluid">
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                      <h2 style="color: darkorange; font-weight: bold;">SENIOR HIGH SCHOOL<span class="text-body-secondary"></span></h2>
+                      <p class="lead" style="font-size: medium;">We are thrilled to invite you to enroll in our Senior High School Department for the upcoming academic year!
+                        We are committed to providing students with a world-class education that focuses on science, technology, engineering, and mathematics (STEM). Our program is designed to nurture young minds and prepare them for a future filled with exciting opportunities in these fields.</p>
+                      <p><a href="#" class="btn btn-success" style="color: rgb(10, 8, 8);" >Learn More</a></p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto img-thumbnail" src="images/seniorhigh.jpg">
+                    </div>
+                  </div>
+                </div>
+              </section>
+                <hr />
+                <section id="facilities">
+                  <div class="jumbotron">
+                  <div class="row">
+                    <h2 style="color: darkorange; font-weight: bold; text-align: center;">Our Facilities</h2>
+                    <div class="col-lg-4">
+                      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-thumbnail" src="images/ict.jpg">
+                      <div class="layer">
+                        <h3>ICT</h3>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-thumbnail" src="images/scilab.jpg">
+                      <div class="layer">
+                        <h3>SCIENCE LAB</h3>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <img class= "bd-placeholder-img bd-placeholder-img-lg featurette-image img-thumbnail" src="images/admin.jpg">
+                      <div class="layer">
+                        <h3>ADMIN BUILDING</h3>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-thumbnail" src="images/library.jpg">
+                      <div class="layer">
+                        <h3>LIBRARY</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </section>
+                <hr />
+                <section id="updates">
+                  <div class="jumbotron">
+                    <div class="row">
+                      <h2 style="color: darkorange; font-weight: bold; text-align: center;">UPDATES</h2>
+                      <div class="col-lg-4">
+                      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSTREAMLINEDORSHS%2Fposts%2Fpfbid02SSywy9E6rBih3gySxfnrPFX1cqRyggd4iovUdffsoYXMvZQpFtvHC94DsiJKYxM3l&show_text=true&width=500" width="400" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share mx-auto"></iframe>
+                    </div>
+                    <div class="col-lg-4">
+                      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSTREAMLINEDORSHS%2Fposts%2Fpfbid032MRJkNz352cZzM3FGuwuCXRHCaxuG2rrsWQnag5ygVXgMeBGbZucrVHpbQM1HYqcl&show_text=true&width=500" width="430" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share mx-auto"></iframe>
+                  </div>
+                  <div class="col-lg-4">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSTREAMLINEDORSHS%2Fposts%2Fpfbid0TVbTTcN5giVzmj7hvAzwjSeqQy2ewpvg8nATCZT5Fwd8G9pdgJfBrEX5a6Km3P2rl&show_text=true&width=500" width="430" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share mx-auto"></iframe>
+                </div>
+                </section>
+        <footer class="text-center text-lg-start text-dark"
+          style="background-color: #e1e5f1">
+            <div class="row">
+              <div class="col-md-6">
+                <p> &copy; 2023  Official Website of Davao Oriental Regional Science High School  All Rights Reserved.</p>
+              </div>
+              <div class="col-md-6 text-md-right">
+                <a href="#" class="text-dark">Back to Top</a>
+              </div>
+            </div>
+          </footer>
+        
+    </body>
 
-        <div class="row">
-            <div class="campus-col">
-            <img src="images/background1.jpg">
-            <div class="layer">
-                <h3>Admin Building</h3>
-            </div>
-            </div>
-            <div class="campus-col">
-            <img src="images/ict.jpg">
-            <div class="layer">
-                <h3>ICT</h3>
-            </div>
-            </div>
-  
-            <div class="campus-col">
-            <img src="images/scilab.jpg">
-            <div class="layer">
-                <h3>Science Laboratory</h3>
-            </div>
-            </div>
-          </div>  
-    </section>
-
-    <!-----Updates------->
-    <section class="updates">
-      <h1 id="updates"> UPDATES</h1>
-      <div class="row">
-        <div class="update-col">
-      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSTREAMLINEDORSHS%2Fposts%2Fpfbid02UQDyo3bWjbHupw9KVgUurrymsQP4TmtyNZkVUnyxy2nQbRwuh4fJfYg63ApgggJRl&show_text=true&width=400" width="400" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-      </div>
-        <div class="update-col">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSTREAMLINEDORSHS%2Fposts%2Fpfbid02JkxcTBbeZ3UkEaYCjXks6Z53APJdXXiSJbT5xaW5eiT1qDik6GrkuZcTikcnSohdl&show_text=true&width=400" width="400" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>      </div>
-        </div>
-        <div class="update-col">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FSTREAMLINEDORSHS%2Fvideos%2F614260040894881%2F&show_text=false&width=400&t=0" width="400" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>      </div>
-      </div>
-    </div>
-    </section>
-
-    <!----contact us------>
-<section class="contact">
-  <h3>Enroll For Our Junior High and Senior High School Academics Anywhere</h3>
- <a href="" id="contact">CONTACT US</a>
-</section>
-    <div class="blocker"> </div>
-    <div class="footer">
-	<footer>
-	<p>Copyright &copy; 2023 | OFFICIAL WEBSITE OF DAVAO ORIENTAL REGIONAL SCIENCE HIGH SCHOOL  | All Rights Reserved.</p>
-	</footer>
-	</div>
-</div>
-  </body>
 </html>

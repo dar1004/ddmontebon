@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.navbar-style{
+    box-shadow: 0 5px #efefef;
+}
+.logo{
+    height: 100px;
+    padding: 2px 5px;
+}
+.icon-bar{
+    background: rgb(115, 179, 6);
+}
+li a{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+li a:hover{
+    color:#04881a;
+}
+ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: gray;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ul li:hover::after{
+    width: 100%;
+}
+.container1{
+    min-height: 70vh;
+    width: 100%;
+    background-image: url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: aliceblue;
+}
+.container1 h1{
+    margin-top: none;
+    color: darkorange;
+    text-align: center;
+    font-weight: bolder;
+}
+.container1 h3{
+    color: darkorange;
+    text-align: center;
+}
+.container1 p{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 30px;
+    margin: auto;
+    justify-content: space-between;
+    font-weight: bold;
+}
+a.btn{
+    margin: 30px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid darkorange;
+    margin-left: 80px;
+}
+a.btn:hover{
+background-color: #04881a;
+border: none;
+color: #fff;
+box-shadow: 5px 5px 10px #999;
+transition: 0.3s;
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+.academics{
+    background-color: white;
+    
+}
+.col-md-4{
+    margin-right: 50px;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+background: rgba(110, 184, 135, 0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    color: #fff;
+    opacity: 0;
+    background-color: #1c5f36;
+    text-align: center;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
